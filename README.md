@@ -1,16 +1,21 @@
-******************** Ride Evee Backend 🚗 ********************
+
+                                                
+                                                ******************** Ride Evee Backend 🚗 ********************
+                                                
 Welcome to the backend code for Ride Evee! This is a Node.js and Express.js project designed to handle CRUD operations for a User resource in MongoDB. It’s a REST API that includes secure authentication, proper error handling, and fully tested endpoints.
 
 
 
-******************** 🌟 Features ********************
+                                                ******************** 🌟 Features ********************
+                                                
 CRUD Operations: Create, Read, Update, and Delete users.
 Authentication: Middleware for securing sensitive actions.
 Validation & Error Handling: Clean and thorough error handling for each endpoint.
 Testing: Reliable API testing with Jest.
 
 
-********************  📋 Requirements  ********************
+                                    ********************  📋 Requirements  ********************
+                                    
 To run this project, make sure you have the following installed:
 
 Node.js (v14 or newer)
@@ -19,7 +24,8 @@ MongoDB (either locally or using MongoDB Atlas)
 
 
 
- *********************************************************** 🚀 Getting Started  ****************************************
+             *********************************************************** 🚀 Getting Started  ****************************************
+             
 Here’s how you can set up and run the project on your own machine.
 
             1. Clone the Repository
@@ -59,7 +65,10 @@ Here’s how you can set up and run the project on your own machine.
             The server should now be running at http://localhost:5000! You’ll see a confirmation in the terminal: “Server running on port 5000” and “MongoDB connected.”
 
 
-********************  📚 API Endpoints ********************
+                        
+
+                        ********************  📚 API Endpoints ********************
+                        
 Here’s a quick overview of the available API endpoints:
 
 Method	Endpoint	Description	Auth Required
@@ -83,7 +92,8 @@ Content-Type: application/json
 }
 
 
-********************  🧪 Testing********************
+            ********************  🧪 Testing********************
+            
 This project includes Jest tests for key parts of the API, including:
 
 Input Validation: Checking that data is correct before saving.
@@ -98,7 +108,9 @@ You should see results confirming that each test passes (or fails, if there’s 
 
 
 
-**************************************** 🗂 Project Structure ****************************************
+
+                        **************************************** 🗂 Project Structure ****************************************
+                        
 Here's a quick look at how the project files are organized:
 
 bash
@@ -125,7 +137,8 @@ ride-evee-backend/
 
 
 
-**************************************** 🛠 Built With ****************************************
+            **************************************** 🛠 Built With ****************************************.
+            
 Node.js - JavaScript runtime for building server-side applications.
 Express.js - Minimalist web framework for Node.js.
 MongoDB - NoSQL database for fast and flexible data storage.
